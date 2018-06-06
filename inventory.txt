@@ -1,0 +1,90 @@
+-*- org -*-
+
+Rough inventory of all the crap we have on the site:
+
+http://augeas.net/
+
+(DONE means copied into book source)
+
+* inventory
+** main site:
+*** DONE index: what it is/goals
+    http://augeas.net/index.html
+*** DONE faq
+    http://augeas.net/faq.html
+*** DONE tour: gentle intro to augtool
+    http://augeas.net/tour.html
+***  docs/
+**** DONE index: pointers to more stuff
+    IGNORE
+    http://augeas.net/docs/index.html
+**** DONE api: docs for C API
+    http://augeas.net/docs/api.html
+**** DONE tree: structure of nodes, /files, /augeas
+    http://augeas.net/docs/tree.html
+**** DONE lenses: what they are, ref of lens primitives/combinators
+    http://augeas.net/docs/lenses.html
+**** DONE builtins: reference of builtin.c
+    http://augeas.net/docs/builtins.html
+****    reference: NaturalDocs stuff: existing lenses + C API docs
+    http://augeas.net/docs/references/c_api/files/augeas-h.html
+****    language: lang ref
+    http://augeas.net/docs/language.html
+****    writing-schemas: tutorial, mostly on writing tests
+    http://augeas.net/docs/writing-schemas.html
+*** download: lots of bindings
+    http://augeas.net/download.html
+*** releases: release notes (just point to NEWS)
+    http://augeas.net/news.html
+*** stock_lenses: points to NaturalDocs for existing lenses
+    http://augeas.net/stock_lenses.html
+*** todo: random call to action
+    http://augeas.net/todo.html
+*** contribute: how to help, mailing list, IRC, issues, source, bindings
+    http://augeas.net/developers.html
+*** libfa/
+****    index: brief blurb about it
+    http://augeas.net/libfa/index.html
+****    operations: overview of operations
+    http://augeas.net/libfa/operations.html
+** Wiki
+*** Project Ideas: cool stuff
+    https://github.com/hercules-team/augeas/wiki/Project-Ideas
+*** Path Expressions: tutorial, tips&tricks and reference
+    https://github.com/hercules-team/augeas/wiki/Path-expressions
+*** Tracking down errors: how to understand match /augeas//error
+    https://github.com/hercules-team/augeas/wiki/Tracking-down-errors
+*** Loading specific files: using /augeas/load and -L/-A
+    https://github.com/hercules-team/augeas/wiki/Loading-specific-files
+*** Change how files are saved: what goes in /augeas/save, /augeas/events/saved
+    https://github.com/hercules-team/augeas/wiki/Change-how-files-are-saved
+*** Adding nodes to the tree: ins/defnode
+
+    https://github.com/hercules-team/augeas/wiki/Adding-nodes-to-the-tree
+*** Creating a lens step by step (top to bottom)
+    https://github.com/hercules-team/augeas/wiki/Creating-a-lens-step-by-step
+*** Create a lens from bottom to top (just another example)
+    https://github.com/hercules-team/augeas/wiki/Create-a-lens-from-bottom-to-top
+*** Ambiguities or what do those error messages from the typechecker mean ?
+    https://github.com/hercules-team/augeas/wiki/Ambiguities-or-what-do-those-error-messages-from-the-typechecker-mean-%3F
+*** Dealing with comments
+    https://github.com/hercules-team/augeas/wiki/Dealing-with-comments
+*** Common patterns for lens development
+    just a stub
+    https://github.com/hercules-team/augeas/wiki/Common-patterns
+*** Generic modules to include in new lenses
+    https://github.com/hercules-team/augeas/wiki/Generic-modules
+    pointers to Util, Rx, etc.
+*** Square lenses
+    https://github.com/hercules-team/augeas/wiki/Square-lenses
+*** Documenting your modules
+    https://github.com/hercules-team/augeas/wiki/Documenting-your-modules
+*** Debugging tips
+    https://github.com/hercules-team/augeas/wiki/Debugging-tips
+    Usage of print_... and lens_?type
+*** Code maintenance
+    https://github.com/hercules-team/augeas/wiki/Code-maintenance
+*** List of frequent errors
+    https://github.com/hercules-team/augeas/wiki/List-of-frequent-errors
+*** OS Interation
+    Stuff about Augeas on Ubuntu, Debian, and Solaris (outdated)
